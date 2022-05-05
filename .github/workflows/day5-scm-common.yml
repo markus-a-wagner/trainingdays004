@@ -9,7 +9,7 @@ on:
       - .github/workflows/day5-scm-common.yml
   pull_request:
     branches:
-      - master
+      - master 
     paths:
       - day5/apps/infrastructure/bicep/common/**
       - .github/workflows/day5-scm-common.yml
