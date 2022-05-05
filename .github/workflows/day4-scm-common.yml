@@ -18,7 +18,7 @@ on:
 
 env:
   BICEP_FILE_NAME: "commonmain.bicep"
-
+ 
 jobs:
   build:
     if: github.repository == 'markus-a-wagner/trainingdays004'
