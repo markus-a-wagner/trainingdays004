@@ -28,7 +28,7 @@ jobs:
       BICEP_MODULE_PATH: "./day5/apps/infrastructure/bicep/common/"
       NEED_DEPLOY: ${{ (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
 
-    steps:
+    steps: 
       - name: Checkout
         uses: actions/checkout@v2
 
