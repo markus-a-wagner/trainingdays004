@@ -12,7 +12,7 @@ on:
   pull_request:
     branches:
       - master
-    paths:
+    paths: 
       - day4/apps/infrastructure/bicep/frontend/**
       - day4/apps/frontend/scmfe/**
       - .github/workflows/day4-scm-frontend.yml
